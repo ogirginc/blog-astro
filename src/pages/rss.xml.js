@@ -16,7 +16,7 @@ export async function GET(context) {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       ...post.data,
-      link: `/blog/${post.id}/`,
+      link: `/archive/${post.id}/`,
     })),
   });
 }

@@ -12,7 +12,7 @@ type Props = CollectionEntry<"blog">["data"] & { id: string };
 const { id, title, description, pubDate, updatedDate, heroImage, tags } =
   Astro.props;
 
-const backLink = Astro.url.pathname.indexOf("/blog/") > -1;
+const backLink = Astro.url.pathname.indexOf("/archive/") > -1;
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -42,7 +42,7 @@ const structuredData = {
       <span class="back-link">
         <IconLink
           name="Back"
-          href={generateURL("/blog")}
+          href={generateURL("/archive")}
           label="Back"
           extra="Go Back"
           back
