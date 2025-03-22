@@ -1,6 +1,6 @@
 ---
 title: "How to solve the SSL error for Redis 6 on Heroku?"
-description: "Lorem ipsum dolor sit amet"
+description: "Fix the SSL connection error while using Redis 6 with Heroku’s Redis add-on."
 pubDate: "03 February 2022"
 hide: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Enable relativenumber for neo-tree"
-description: "Lorem ipsum dolor sit amet"
+description: "Enable relative line numbers for lazyvim users when the neo-tree buffer becomes active."
 pubDate: "15 November 2024"
 hide: false
 tags:

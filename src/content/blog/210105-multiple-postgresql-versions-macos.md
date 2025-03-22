@@ -1,6 +1,6 @@
 ---
 title: "How to install multiple Postgresql versions on macOS?"
-description: "Lorem ipsum dolor sit amet"
+description: "Install different versions of Postgresql on your Mac with Homebrew."
 pubDate: "05 January 2021"
 hide: false
 tags:

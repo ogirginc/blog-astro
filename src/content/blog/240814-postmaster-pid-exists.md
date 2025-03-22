@@ -1,6 +1,6 @@
 ---
 title: "The 'postmaster.pid' already exists"
-description: "Lorem ipsum dolor sit amet"
+description: "Remove the dead 'postmaster.pid' for PostgreSQL on macOS."
 pubDate: "14 August 2024"
 hide: false
 tags:

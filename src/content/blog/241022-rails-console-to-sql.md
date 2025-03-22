@@ -1,6 +1,6 @@
 ---
 title: "Show SQL on Ruby on Rails console"
-description: "Lorem ipsum dolor sit amet"
+description: "Update the ActiveRecord logger to show the SQL queries on the Rails console."
 pubDate: "22 October 2024"
 hide: false
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "How to fix a mismatch between psql and server?"
-description: "Lorem ipsum dolor sit amet"
+description: "Fix running different versions of psql and the Postgresql."
 pubDate: "22 February 2024"
 hide: false
 tags:

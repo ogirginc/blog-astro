@@ -1,6 +1,6 @@
 ---
 title: "Fix SSL error using Heroku’s Redis for Flipper"
-description: "Lorem ipsum dolor sit amet"
+description: "Fix the SSL connection error while using Flipper with Heroku’s Redis add-on."
 pubDate: "04 July 2024"
 hide: false
 tags:
