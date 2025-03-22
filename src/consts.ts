@@ -4,17 +4,17 @@
 // Website Configuration
 export const SITE_TITLE = "home of ogirginc";
 export const SITE_DESCRIPTION = "Welcome (. ❛ ᴗ ❛.)";
-export const COPYRIGHT = `© ${new Date().getFullYear()} All Rights Reserved`;
+export const COPYRIGHT = `© ${new Date().getFullYear()} all rights reserved?`;
 export const ICP_NUMBER = "";
 
 // Social Media Links, leave empty or comment out = not displayed
 export const SOCIAL_LINKS = {
   Github: "https://github.com/ogirginc",
   Twitter: "https://twitter.com/ogirginc",
-  LinkedIn: "https://www.linkedin.com/in/ogirginc",
   Bsky: "https://ogirginc.bsky.social",
-  Mastodon: "https://ruby.social/@ogirginc",
   Instagram: "https://www.instagram.com/ogirginc",
+  LinkedIn: "https://www.linkedin.com/in/ogirginc",
+  // Mastodon: "https://ruby.social/@ogirginc",
   //   Facebook: "https://www.facebook.com/yourusername",
   //   YouTube: "https://www.youtube.com/yourusername",
 };
@@ -30,7 +30,6 @@ export const NAV_ITEMS = [
   { text: "Home", link: "/" },
   { text: "Blog", link: "/blog" },
   { text: "Tags", link: "/tags" },
-  { text: "About", link: "/about" },
 ];
 
 // Blog Configuration
