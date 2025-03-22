@@ -1,13 +1,13 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-// 网站配置
+// Website Configuration
 export const SITE_TITLE = "PlainPage";
 export const SITE_DESCRIPTION = "Welcome (. ❛ ᴗ ❛.)";
 export const COPYRIGHT = "© 2024 PlainPage All Rights Reserved";
 export const ICP_NUMBER = "";
 
-// 社交媒体链接, 留空或注释=不显示
+// Social Media Links, leave empty or comment out = not displayed
 export const SOCIAL_LINKS = {
   Github: "https://github.com/churchTao",
   Twitter: "https://twitter.com/yourusername",
@@ -17,13 +17,13 @@ export const SOCIAL_LINKS = {
   //   YouTube: "https://www.youtube.com/yourusername",
 };
 
-// SEO 相关
+// SEO Related
 export const SEO_CONFIG = {
-  ogImage: "/hero-img.png", // 默认的社交媒体分享图片
-  keywords: "blog, tech, programming", // 默认关键词
+  ogImage: "/hero-img.png", // Default social media sharing image
+  keywords: "blog, tech, programming", // Default keywords
 };
 
-// 导航配置
+// Navigation Configuration
 export const NAV_ITEMS = [
   { text: "Home", link: "/" },
   { text: "Blog", link: "/blog" },
@@ -31,14 +31,14 @@ export const NAV_ITEMS = [
   { text: "About", link: "/about" },
 ];
 
-// 博客配置
+// Blog Configuration
 export const BLOG_CONFIG = {
-  locale: "en-us", // 日期格式化语言
+  locale: "en-us", // Date formatting language
   profile: "https://github.com/churchTao",
-  authorName: "Author Name", // 作者名称
+  authorName: "Author Name", // Author name
   email: "mailto:your-email@example.com",
   tags: {
-    title: "Tags", // 标签页面标题
-    description: "All the tags used in posts.", // 标签页面描述
+    title: "Tags", // Tags page title
+    description: "All the tags used in posts.", // Tags page description
   },
 };

@@ -145,7 +145,7 @@ footer {
   width: auto !important;
 }
 
-:not(.astro-code) > code {
+:not(.astro-code)>code {
   font-family: monospace;
   padding: 2px;
   background-color: var(--code-background-color);
@@ -153,7 +153,7 @@ footer {
   border-radius: 3px;
 }
 
-/* 不在 .astro-code 下的 highlight 和 code */
+/* highlight and code not under .astro-code */
 .highlight,
 .code {
   padding: 1px 15px;
@@ -187,6 +187,7 @@ ul.blog-posts li a:visited {
   color: var(--moon-color);
   cursor: pointer;
 }
+
 html[data-theme="dark"] #theme-btn {
   color: var(--sun-color);
 }
@@ -194,6 +195,7 @@ html[data-theme="dark"] #theme-btn {
 .theme-icon {
   transition: transform 0.5s ease;
 }
+
 .theme-icon:hover {
   transform: rotate(-0.1turn);
   color: var(--link-color);
@@ -203,6 +205,7 @@ html[data-theme="dark"] #theme-btn {
 html[data-theme="dark"] #moon-svg {
   display: none;
 }
+
 #moon-svg,
 html[data-theme="dark"] #sun-svg {
   display: block;
@@ -213,7 +216,7 @@ html[data-theme="dark"] .astro-code,
 html[data-theme="dark"] .astro-code span {
   color: var(--shiki-dark) !important;
   background-color: var(--shiki-dark-bg) !important;
-  /* 可选，用于定义字体样式 */
+  /* Optional, used to define font styles */
   /* font-style: var(--shiki-dark-font-style) !important;
   font-weight: var(--shiki-dark-font-weight) !important;
   text-decoration: var(--shiki-dark-text-decoration) !important; */

@@ -21,15 +21,6 @@ A fast, text-focused, minimalist blog.
 - 📱 Responsive: Support for mobile devices
 - 📦 Based on [astro](https://astro.build) version latest
 
-## ✅ Lighthouse Score
-
-[![lighthouse](/screenshots/lighthouse-score.svg)](https://pagespeed.web.dev/analysis/https-churchtao-github-io-PlainPage/e1mpmv9swy?form_factor=desktop)
-
-## Screenshots
-
-![light](/screenshots/light.png)
-![dark](/screenshots/dark.png)
-
 ## 🚀 Project Structure
 
 ```text
@@ -117,13 +108,6 @@ This theme is based off of the lovely [Bear Blog](https://github.com/HermanMarti
 Inspired by [satnaing/astro-paper](https://github.com/satnaing/astro-paper).
 
 Based on [astro](https://astro.build).
-
-## Sites using this theme
-
-- [毛桃的小世界](https://毛桃.top)
-- [Mobai's Blog](https://blog.loliowo.com)
-
-👏 You can submit your site to the list by creating a PR.
 
 ## 📜 License
 
